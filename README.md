@@ -7,7 +7,7 @@ BOT_DB_NAME
 BOT_DB_USER
 BOT_DB_PASS
 =============
-For site
+For site:
 SITE_DB_HOS
 SITE_DB_PORT
 SITE_DB_NAME
