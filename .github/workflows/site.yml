@@ -1,4 +1,4 @@
-name: Bot
+name: Site
 
 env:
   WORKFLOW_TIMEOUT:     '21600'
