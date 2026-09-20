@@ -763,9 +763,9 @@ jobs:
 
       - name: Run index.php
         env:
-          DB_HOST: ${{ secrets.DB_HOST }}
-          DB_PORT: ${{ secrets.DB_PORT }}
-          DB_NAME: ${{ secrets.DB_NAME }}
-          DB_USER: ${{ secrets.DB_USER }}
-          DB_PASS: ${{ secrets.DB_PASS }}
+          DB_HOST: ${{ secrets.BOT_DB_HOST }}
+          DB_PORT: ${{ secrets.BOT_DB_PORT }}
+          DB_NAME: ${{ secrets.BOT_DB_NAME }}
+          DB_USER: ${{ secrets.BOT_DB_USER }}
+          DB_PASS: ${{ secrets.BOT_DB_PASS }}
         run: php index.php
