@@ -9,6 +9,15 @@ BOT_DB_PASS
 
 =============
 
+For bot2:
+BOT2_DB_HOST
+BOT2_DB_PORT
+BOT2_DB_NAME
+BOT2_DB_USER
+BOT2_DB_PASS
+
+=============
+
 For site:
 SITE_DB_HOST
 SITE_DB_PORT
